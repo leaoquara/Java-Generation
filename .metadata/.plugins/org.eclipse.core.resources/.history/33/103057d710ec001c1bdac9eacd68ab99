@@ -1,0 +1,32 @@
+package ExercicioCollections;
+
+public class Estoque {
+
+	private String Item;
+	private double Quantidade;
+	
+	public Estoque(String item, double quantidade) {
+		super();
+		Item = item;
+		Quantidade = quantidade;
+	}
+	
+	public String getItem() {
+		return Item;
+	}
+	public void setItem(String item) {
+		Item = item;
+	}
+	
+	public double getQuantidade() {
+		return Quantidade;
+	}
+	public void setQuantidade(double quantidade) {
+		Quantidade = quantidade;
+	}
+	
+	public String toString() {
+		return "Estoque: " + this.Item + " | " + "Quantidade: " + this.Quantidade;
+		
+	}
+}

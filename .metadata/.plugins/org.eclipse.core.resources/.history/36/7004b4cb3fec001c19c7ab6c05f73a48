@@ -1,0 +1,20 @@
+package ExercicioCollections;
+
+import java.util.ArrayList;
+
+public class TestaEstoque {
+
+	public static void main(String[] args) {
+	
+		Estoque i1 = new Estoque("Papel" , 60);
+		Estoque i2 = new Estoque("Papel" , 60);	
+		Estoque i3 = new Estoque("Papel" , 60);
+		Estoque i4 = new Estoque("Papel" , 60);
+		Estoque i5 = new Estoque("Papel" , 60);
+		
+		
+		
+		
+	}
+
+}
